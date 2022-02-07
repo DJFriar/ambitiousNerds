@@ -5,7 +5,7 @@ const SEO = () => {
   return (
     <div>
       <Helmet>
-        <title>Rewy - Gatsby IT Startup Templates Collection</title>
+        <title>ambitiousNerds - Modern Full-Stack Web, iOS, and Android Development</title>
         <meta name="description" content="ambitiousNerds - Modern Full-Stack Web, iOS, and Android Development" />
         <meta name="og:title" property="og:title" content="ambitiousNerds - Modern Full-Stack Web, iOS, and Android Development"></meta>
         <meta name="twitter:card" content="ambitiousNerds - Modern Full-Stack Web, iOS, and Android Development"></meta>
