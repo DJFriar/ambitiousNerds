@@ -5,10 +5,10 @@ import Layout from "../components/App/Layout"
 import Banner from "../components/Index/Banner"
 import OurServices from "../components/Index/OurServices"
 // import RecentProjects from "../components/Index/RecentProjects"
-import Testimonials from "../components/Index/Testimonials"
+// import Testimonials from "../components/Index/Testimonials"
 // import Partner from "../components/Index/Partner"
 import ProjectStartArea from "../components/Index/ProjectStartArea"
-import OurBlog from "../components/Index/OurBlog"
+// import OurBlog from "../components/Index/OurBlog"
 
 const Home = () => {
   return (
@@ -17,9 +17,9 @@ const Home = () => {
       <Banner />
       <OurServices />
       {/* <RecentProjects /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <Partner /> */}
-      <OurBlog />
+      {/* <OurBlog /> */}
       <ProjectStartArea />
       <Footer />
     </Layout>
