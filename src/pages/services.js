@@ -7,20 +7,20 @@ import ServicesOne from '../components/Services/ServicesOne'
 import StartProject from '../components/Common/StartProject'
 
 const Services = () => {
-    return (
-        <Layout>
-            <Navbar />
-            <PageBanner
-                pageTitle="Services" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Services" 
-            />
-            <ServicesOne />
-            <StartProject />
-            <Footer />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <Navbar />
+      <PageBanner
+        pageTitle="Services" 
+        homePageText="Home" 
+        homePageUrl="/" 
+        activePageText="Services" 
+      />
+      <ServicesOne />
+      <StartProject />
+      <Footer />
+    </Layout>
+  );
 }
 
 export default Services
