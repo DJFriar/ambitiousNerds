@@ -106,14 +106,14 @@ const Footer = () => {
 
             <div className="col-lg-6 col-md-6">
               <ul>
+                {/* <li>
+                  <Link to="/terms-of-service">
+                    Terms & Conditions
+                  </Link>
+                </li> */}
                 <li>
                   <Link to="/privacy-policy">
                     Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/terms-of-service">
-                    Terms & Conditions
                   </Link>
                 </li>
               </ul>
