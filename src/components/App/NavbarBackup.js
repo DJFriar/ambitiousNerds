@@ -4,7 +4,7 @@ import { collapsedState } from '../../utils/recoil-atoms'
 import {Link} from 'gatsby'
 import logo from "../../assets/images/ambitiousNerds.png"
 
-const Navbar = () => {
+const NavbarBackup = () => {
   const [collapsed, setCollapsed] = useRecoilState(collapsedState);
 
   const toggleNavbar = () => {
@@ -66,7 +66,7 @@ const Navbar = () => {
                       Home
                     </Link>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link 
                       to="#" 
                       activeClassName="active"
@@ -86,7 +86,7 @@ const Navbar = () => {
                           About Us
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link 
                           to="/history" 
                           activeClassName="active"
@@ -95,7 +95,7 @@ const Navbar = () => {
                         >
                           History
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <Link 
                           to="/testimonials" 
@@ -107,16 +107,48 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li> */}
+                  </li>
                   <li className="nav-item">
                     <Link 
-                      to="/contact" 
+                      to="#" 
                       activeClassName="active"
-                      onClick={() => setCollapsed(true)}
+                      onClick={e => e.preventDefault()}
                       className="nav-link"
                     >
-                      Contact
+                      Pages <i className='bx bx-chevron-down'></i>
                     </Link>
+                      <ul className="dropdown-menu">
+                        <li className="nav-item">
+                          <Link 
+                            to="/contact" 
+                            activeClassName="active"
+                            onClick={() => setCollapsed(true)}
+                            className="nav-link"
+                          >
+                            Contact
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link 
+                            to="/privacy-policy" 
+                            activeClassName="active"
+                            onClick={() => setCollapsed(true)}
+                            className="nav-link"
+                          >
+                            Privacy Policy
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link 
+                            to="/terms-of-service" 
+                            activeClassName="active"
+                            onClick={() => setCollapsed(true)}
+                            className="nav-link"
+                          >
+                            Terms of Service
+                          </Link>
+                        </li>
+                      </ul>
                   </li>
                   {/* <li className="nav-item">
                     <Link 
@@ -137,7 +169,7 @@ const Navbar = () => {
                       onClick={() => setCollapsed(true)}
                       className="default-btn"
                     >
-                      <i className="flaticon-right"></i> Get Started <span></span>
+                      <i className="flaticon-right"></i> Contact Us <span></span>
                     </Link>
                   </div>
                 </div>
@@ -150,4 +182,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default NavbarBackup;

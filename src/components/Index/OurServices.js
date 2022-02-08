@@ -1,13 +1,12 @@
 import React from 'react'
 import service1 from '../../assets/images/services/service1.png'
-import service2 from '../../assets/images/services/service2.png'
 import starIcon from '../../assets/images/star-icon.png'
 
 const OurServices = () => {
   return (
     <React.Fragment>
       {/* Service Left Image Style */}
-      <div className="about-area pb-100">
+      <div className="about-area pb-50">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -24,31 +23,11 @@ const OurServices = () => {
                   </span>
                     
                   <h2>Cloud Hosting Services</h2>
-                  <p>Utilizing the very best hardware and software technologies, ambitiousNerds offers hosting services that are second to none, regardless if you are just getting started, or already have thousands of customers.</p>
+                  <p>Utilizing the very best hardware and software technologies, ambitiousNerds offers hosting services that are second to none, regardless if you are just getting started or already have thousands of customers.</p>
                   <ul className="about-list mb-0">
                     <li>
                       <i className="flaticon-tick"></i>
-                      Cloud Databases
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
                       Website Hosting
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      File Storage
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Forex Trading
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      File Backups
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i>
-                      Remote Desktop
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
@@ -56,7 +35,19 @@ const OurServices = () => {
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Hybrid Cloud
+                      File Storage
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      File Backups
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Video Hosting
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Photo Backups
                     </li>
                   </ul>
                 </div>
@@ -68,7 +59,7 @@ const OurServices = () => {
       {/* End Service Left Image Style */}
 
       {/* Service Right Image Style */}
-      <div className="our-mission-area pb-100">
+      {/* <div className="our-mission-area pb-100">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -126,7 +117,7 @@ const OurServices = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Service Right Image Style */}
     </React.Fragment>
   )
