@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import logo from "../../assets/images/ambitiousNerds.png"
 import footerMap from "../../assets/images/footer-map.png"
 
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="col-lg-2 col-sm-6">
             <div className="single-footer-widget pl-5">
               <h3>Explore</h3>
-                
+
               <ul className="footer-links-list">
                 <li>
                   <Link to="/">
@@ -82,16 +82,16 @@ const Footer = () => {
 
               <ul className="footer-contact-info">
                 <li>
-                  <i className='bx bx-map'></i> 
+                  <i className='bx bx-map'></i>
                   Plano, TX 75025
                 </li>
                 <li>
                   <i className='bx bx-phone-call'></i>
-                  <a href="tel:+19404686373">+1 (940) GOT-NERD</a>
+                  <a href="tel:+19454686373">+1 (945) GOT-NERD</a>
                 </li>
                 <li>
                   <i className='bx bx-envelope'></i>
-                  <a href="mailto:tommy@ambitiousnerds.com">hello@ambitiousnerds.com</a>
+                  <a href="mailto:tommy@ambitiousnerds.com">info@ambitiousnerds.com</a>
                 </li>
               </ul>
             </div>
