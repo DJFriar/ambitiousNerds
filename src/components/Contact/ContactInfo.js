@@ -27,8 +27,8 @@ const ContactInfo = () => {
                 <i className='bx bx-phone-call'></i>
               </div>
               <h3>Contact</h3>
-              <p>Tel: <a href="tel:+19404686373">+1 (940) GOT-NERD</a></p>
-              <p>E-mail: <a href="mailto:tommy@ambitiousnerds.com">hello@ambitiousnerds.com</a></p>
+              <p>Tel: <a href="tel:+19454686373">+1 (945) GOT-NERD</a></p>
+              <p>E-mail: <a href="mailto:info@ambitiousnerds.com">hello@ambitiousnerds.com</a></p>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ const ContactInfo = () => {
                 <i className='bx bx-time-five'></i>
               </div>
               <h3>Hours of Operation</h3>
-              <p>Monday - Friday: 09:00 - 20:00</p>
+              <p>Monday - Friday: 9:00am - 6:00pm</p>
             </div>
           </div>
         </div>
